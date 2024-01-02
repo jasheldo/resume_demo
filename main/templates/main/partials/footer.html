@@ -1,0 +1,17 @@
+{% load static %}
+
+<footer>
+    <div class="footerCol">
+        <div class="container">
+        <ul class="socialCol">
+            <li><a href="javascript:void(0)"><img src="{% static 'images/fb.svg' %}" alt="..."></a></li>
+            <li><a href="javascript:void(0)"><img src="{% static 'images/insta.svg' %}" alt="..."></a></li>
+            <li><a href="javascript:void(0)"><img src="{% static 'images/twitter.svg' %}" alt="..."></a></li>
+            <li><a href="https://www.linkedin.com/in/jimsheldon/"><img src="{% static 'images/linkedin.svg' %}" alt="..."></a></li>
+        </ul>
+        <div class="copyrightCol">
+            <p>Copyright ©{% now 'Y' %} All rights reserved. Built with &#128154; using <a href="https://www.djangoproject.com" target="_blank">Django</a>.</p>
+        </div>
+        </div>
+    </div>
+</footer>
